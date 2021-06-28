@@ -6,14 +6,14 @@ Table 1. Experimental environment configuration
 |Parameter|Configuration|
 |--|--|
 |CPU|Intel (R) Xeon (R) CPU E5-2678 v3 @ 2.50GHz|
-|  文字信息|  哈罗|
-CPU	            Intel (R) Xeon (R) CPU E5-2678 v3 @ 2.50GHz
-GPU	               NVIDIA Tesla K80
-System	             Ubuntu18. 04
-Language	           Python3.8
-CUDA	               CUDA 11.0
-cuDNN	               cuDNN 8.0
-Pytorch	           Pytorch 1.7.1
+
+|CPU	    |        Intel (R) Xeon (R) CPU E5-2678 v3 @ 2.50GHz|
+|GPU	    |           NVIDIA Tesla K80|
+|System	  |           Ubuntu18. 04|
+|Language	 |          Python3.8|
+|CUDA	     |          CUDA 11.0|
+|cuDNN	   |            cuDNN 8.0|
+|Pytorch	 |          Pytorch 1.7.1|
 
 
 
