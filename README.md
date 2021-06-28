@@ -14,9 +14,9 @@ Table 1. Experimental environment configuration
 |Pytorch|Pytorch 1.7.1|
 
 ### Install
-$ git clone https://github.com/ultralytics/yolov5
-$ cd yolov5
-$ pip install -r requirements.txt
+$ git clone https://github.com/ultralytics/yolov5  
+$ cd yolov5  
+$ pip install -r requirements.txt  
 安装requests
 pip install requests
 安装yaml
