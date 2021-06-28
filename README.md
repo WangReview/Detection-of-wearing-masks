@@ -21,11 +21,8 @@ $ pip install requests
 $ pip install pyyaml  
 $ pip install tqdm  
 
+### Train
+$ python detect.py --source /mnt/testfiles/img1.jpg --weights best.pt --conf 0.4 --save-txt --save-conf  
+$ python detect.py --source /mnt/testfiles/testvideo1.mp4 --weights best.pt --conf 0.4  
+$ python test.py --data voc-mask.yaml --weights best.pt --batch-size 16  
 
-成功命令，在/mnt/yolov5-master下执行
-1、测试图片
-python detect.py --source /mnt/testfiles/img1.jpg --weights best.pt --conf 0.4 --save-txt --save-conf
-2、测试视频
-python detect.py --source /mnt/testfiles/testvideo1.mp4 --weights best.pt --conf 0.4
-3、性能统计
-python test.py --data voc-mask.yaml --weights best.pt --batch-size 16
