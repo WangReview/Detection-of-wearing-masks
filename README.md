@@ -13,15 +13,17 @@ Table 1. Experimental environment configuration
 |cuDNN|cuDNN 8.0|
 |Pytorch|Pytorch 1.7.1|
 
-
-
-
-## 安装requests
+### Install
+$ git clone https://github.com/ultralytics/yolov5
+$ cd yolov5
+$ pip install -r requirements.txt
+安装requests
 pip install requests
-### 安装yaml
+安装yaml
 pip install pyyaml
 安装tqdm
 pip install tqdm
+
 
 成功命令，在/mnt/yolov5-master下执行
 1、测试图片
