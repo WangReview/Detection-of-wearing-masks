@@ -1,7 +1,7 @@
 # Detection-of-wearing-masks
 Detection of wearing masks based on YOLOv5 model
 
-The experimental environment uses Ubuntu 18.04 operating system, pytorch architecture, and NVIDIA Tesla K80 graphics card. The specific experimental configuration is shown in Table 1.
+The experimental environment uses Ubuntu 18.04 operating system, pytorch architecture, and NVIDIA Tesla K80 graphics card. The specific experimental configuration is shown in Table 1.  
 Table 1. Experimental environment configuration
 |Parameter|Configuration|
 |--|--|
