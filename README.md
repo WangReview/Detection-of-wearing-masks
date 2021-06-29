@@ -23,6 +23,6 @@ $ pip install tqdm
 
 ### Train
 $ python detect.py --source /mnt/testfiles/img1.jpg --weights best.pt --conf 0.4 --save-txt --save-conf  
-$ python detect.py --source /mnt/testfiles/testvideo1.mp4 --weights best.pt --conf 0.4  
+$ python detect.py --source /mnt/testfiles/video2.mp4 --weights best.pt --conf 0.4  
 $ python test.py --data voc-mask.yaml --weights best.pt --batch-size 16  
 
